@@ -1,0 +1,122 @@
+@media screen and (min-width:993px) and (max-width:1210px) {
+    .navbar{
+        margin: 15px 0px;
+        padding: 0px 10px;
+       width: 100%;
+    }
+    .boxContainer{
+        width: 100%;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+    .most{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .leftMostRecent{
+        box-sizing: border-box;
+        width: 49%;
+    }
+    .leftMostRecent img{
+        height: 500px;
+        width: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+    .rightMostRecent{
+        width: 49%;
+        box-sizing: border-box;
+    }
+    .rightMostRecent img{
+        height: 400px;
+        box-sizing: border-box;
+        width: 100%;
+        object-fit: cover;
+    }
+    article{
+        width: 100%;
+    }
+    footer{
+        color: rgb(125, 124, 124);
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .navbar{
+        margin: 15px 0px;
+        padding: 0px 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .boxContainer{
+        width: 100%;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+    .most{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .leftMostRecent{
+        box-sizing: border-box;
+        width: 49%;
+    }
+    .leftMostRecent img{
+        height: 500px;
+        width: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+    .rightMostRecent{
+        width: 49%;
+        box-sizing: border-box;
+    }
+    .rightMostRecent img{
+        height: 400px;
+        box-sizing: border-box;
+        width: 100%;
+        object-fit: cover;
+    }
+    article{
+        width: 100%;
+    }
+    footer{
+        color: rgb(125, 124, 124);
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:600px) {
+    .leftBox{
+        width: 100%;
+    }
+    .rightBox{
+        padding-top: 15px;
+        width: 100%;
+    }
+    .leftMostRecent{
+        box-sizing: border-box;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -7px;
+    }
+    .rightMostRecent{
+        width: 98%;
+        margin-left: auto;
+        box-sizing: border-box;
+        margin-right: auto;
+    }
+    .box{
+        width: 100%;
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+}

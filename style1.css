@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.navbar{
+    margin: 15px auto;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+.navbar i{
+    font-size: 20px;
+}
+.boxContainer{
+    width: 1200px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftBox{
+    width: 50%;
+}
+.leftBox h3{
+    font-size: 30px;
+    color: #ddd;
+}
+.leftBox h2{
+    font-size: 35px;
+    color: #aaa;
+    margin: 20px 0px;
+}
+.leftBox h1{
+    font-size: 60px;
+}
+.rightBox{
+    width: 50%;
+}
+.rightBox p:first-child{
+    font-size: 24px;
+
+    color: rgb(100, 97, 97);
+}
+.rightBox p:nth-child(even){
+    font-size: 24px;
+    color: rgb(100, 97, 97);
+    padding: 20px 0px;
+}
+.most{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+#mostFirst{
+    width: 100%;
+    margin: 20px 0px;
+    color: #333;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.leftMostRecent{
+    box-sizing: border-box;
+    width: 50%;
+}
+.leftMostRecent img{
+    height: 800px;
+    width: 580px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.rightMostRecent{
+    width: 50%;
+    box-sizing: border-box;
+}
+.rightMostRecent p{
+    font-size: 24px;
+    word-spacing: 5px;
+    padding: 25px 0px;
+    color: rgb(100, 97, 97);
+}
+.rightMostRecent img{
+    height: 700px;
+    box-sizing: border-box;
+    width: 600px;
+    object-fit: cover;
+}
+article{
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 33.33%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+#boxbg1{
+    background-color: black;
+    color: white;
+}
+#boxbg1 i{
+    padding-right: 10px;
+}
+#boxbg2{
+    background-color: rgb(104, 102, 102);
+    color: white;
+    text-align: center;
+}
+#boxbg3{
+    background-color: rgb(190, 188, 188);
+    color: white;
+    text-align: center;
+}
+#boxbg3 a{
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+.box p{
+    padding: 10px ;
+}
+.boxFirst{
+    font-size: 24px;
+}
+footer{
+    color: rgb(125, 124, 124);
+    padding: 10px 0px;
+    margin: 0px auto;
+    width: 1200px;
+}
