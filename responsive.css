@@ -19,20 +19,16 @@
         width: 49%;
     }
     .leftMostRecent img{
-        height: 500px;
-        width: 100%;
-        box-sizing: border-box;
-        object-fit: cover;
+        height: 580px;
+        width: 580px;
     }
     .rightMostRecent{
         width: 49%;
         box-sizing: border-box;
     }
     .rightMostRecent img{
-        height: 400px;
-        box-sizing: border-box;
-        width: 100%;
-        object-fit: cover;
+        height:480px;
+    width: 600px;
     }
     article{
         width: 100%;
@@ -68,20 +64,18 @@
         width: 49%;
     }
     .leftMostRecent img{
-        height: 500px;
+        height: 80%;
+        vertical-align: middle;
         width: 100%;
-        box-sizing: border-box;
-        object-fit: cover;
     }
     .rightMostRecent{
         width: 49%;
         box-sizing: border-box;
     }
     .rightMostRecent img{
-        height: 400px;
-        box-sizing: border-box;
+        height: 65%;
+        vertical-align: middle;
         width: 100%;
-        object-fit: cover;
     }
     article{
         width: 100%;
@@ -107,6 +101,16 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -7px;
+    }
+    .leftMostRecent img{
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .rightMostRecent img{
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
     }
     .rightMostRecent{
         width: 98%;
